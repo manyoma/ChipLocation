@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - ChipLocation</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-logo">ChipLocation</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="inicio.html" class="nav-link">Inicio</a></li>
+          <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+          <li><a href="anuncios.html" class="nav-link">Anuncios</a></li>
+          <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes dudas o deseas una cotización personalizada? ¡Escríbenos!</p>
+
+        <form id="contactForm">
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          <input type="email" id="email" name="email" placeholder="Tu correo" required>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        <p id="mensajeConfirmacion" class="confirmacion"></p>
+
+        <div class="info-contacto">
+          <div>
+            <h4>📞 Teléfono</h4>
+            <p>+57 320 456 7890</p>
+          </div>
+          <div>
+            <h4>📍 Dirección</h4>
+            <p>Calle 45 #12-89, Medellín, Colombia</p>
+          </div>
+          <div>
+            <h4>✉️ Correo</h4>
+            <p>contacto@chiplocation.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year">2025</span> ChipLocation. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="strip.js"></script>
+</body>
+</html>

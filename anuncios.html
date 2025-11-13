@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuncios - ChipLocation</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-logo">ChipLocation</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="inicio.html" class="nav-link">Inicio</a></li>
+          <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+          <li><a href="anuncios.html" class="nav-link active">Anuncios</a></li>
+          <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="anuncios" class="section">
+      <div class="container">
+        <h2>Planes Disponibles</h2>
+        <div class="planes">
+          <div class="plan">
+            <img src="/img/anuncio1.jpeg" alt="Plan básico">
+            <h3>Plan Básico – <span>Te veo</span></h3>
+            <p>Monitoreo en tiempo real con precisión estándar. Ideal para uso personal o diario.</p>
+            <ul>
+              <li>📍 Ubicación en tiempo real</li>
+              <li>🔋 Batería de 24 horas</li>
+              <li>📱 App gratuita</li>
+            </ul>
+            <div class="plan-actions">
+              <button class="open-plan btn btn-primary" data-plan="Te veo">Obtener Plan</button>
+            </div>
+          </div>
+          <div class="plan">
+            <img src="/img/anuncio2.jpeg" alt="Plan intermedio">
+            <h3>Plan Intermedio – <span>Estoy donde estés</span></h3>
+            <p>Controla el historial de ubicación, alertas de movimiento y duración extendida.</p>
+            <ul>
+              <li>📍 Ubicación precisa</li>
+              <li>⚡ Batería de 48 horas</li>
+              <li>📲 Alertas de zona segura</li>
+            </ul>
+            <div class="plan-actions">
+              <button class="open-plan btn btn-primary" data-plan="Estoy donde estés">Obtener Plan</button>
+            </div>
+          </div>
+          <div class="plan">
+            <img src="/img/anuncio3.jpeg" alt="Plan premium">
+            <h3>Plan Premium – <span>Me importas</span></h3>
+            <p>Geolocalización avanzada, botón SOS y atención personalizada 24/7.</p>
+            <ul>
+              <li>🛰️ Precisión satelital</li>
+              <li>🆘 Botón de emergencia</li>
+              <li>💬 Asistencia humana en vivo</li>
+            </ul>
+            <div class="plan-actions">
+              <button class="open-plan btn btn-primary" data-plan="Me importas">Obtener Plan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year">2025</span> ChipLocation. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="strip.js"></script>
+</body>
+</html>
